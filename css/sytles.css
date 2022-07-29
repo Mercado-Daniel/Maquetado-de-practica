@@ -1,0 +1,15 @@
+*{
+    margin: 4px;
+}
+.perfil{
+    border-radius: 50%;    
+    
+}
+.marco{
+    border: 1px solid;
+    border-radius: 1%;
+}
+ul{
+    list-style: none;
+
+}
