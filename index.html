@@ -1,43 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="/css/sytles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/css/sytles.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="marco">
-        
-            <img class="perfil" src="/images/f1.png" width="100px">
-            <h3>Daniel Mercado</h2>
-            <p>Rosario, Santa Fe, Argentina <a href="/contacto.html">informacion de contacto</a></p>
-    </div>
-    <div class="marco" >
-        <h2>Acerca de</h2>
-        <p>Escultor , estudiante de economía, desarrollador web</p>
-    </div>
-    <div class="marco">
-        <h2>Educación</h2>
-        <ul>
-            <li>
-                <img src="/images/economicas.png" width="50px">
-                <img src="/images/logo-unr.png" width="50px">
-                <h2>Facultad De Ciencias Economicas UNR</h2>
-                <p>Lic. en Economía</p>
-                <p>2013 - actualidad</p>
-            </li>
-            <li>
-                <img src="/images/descarga.png" width="50px">
-                <img src="/images/logo-unr.png" width="50px">
-                <h2>IPS UNR</h2>
-                <p>Analista Universitario En Sistemas</p>
-                <p>2022 - actualidad</p>
-            </li>
-            <li></li>
+  <!--barra nav-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Daniel Mercado</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
         </ul>
-
+      </div>
     </div>
+  </nav>
+  <div class="container">
+    <!--perfil-->
+    <div class="dcard" class="mat-card">
+      <div>
+        <img src="/images/codigo-programacion.jpg" class="card-img-top" id="portada" alt="...">
+      </div>
+      <div>
+      <img id="profile-image" src="/images/f1.png" alt="">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Mercado Daniel</h5>
+        <p class="card-text">Rosrario, Santa Fe, Argentina</p>
+        <button href="#" class="btn btn-primary">Tengo interés en</button>
+        <button class="btn ">Añadir Seccion</button>
+        <button class="btn">Más</button>
+      </div>
+    </div>
+    <!--Acerca de-->
+    <div class="dcard">
+      <div class="card-body">
+        <h5 class="card-title">Acerca de</h5>
+        <p class="card-text">Estudiante de Analista Universitario en Sistemas, Desarrollador full-stack, Escultor.</p>
+      </div>
+    </div>
+    <!--Experiencia-->
+    <div class="dcard">
+      <div class="card-body">
+        <h5 class="card-title">Experiencia</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <!--educacion-->
+    <div class="dcard">
+      <div class="card-body">
+        <h5 class="card-title">Educacion</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <!--Hard & soft skills-->
+    <div class="dcard">
+      <div class="card-body">
+        <h5 class="card-title">Hard Skills & Soft Skills</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <!--proyectos-->
+    <div class="dcard">
+      <div class="card-body">
+        <h5 class="card-title">Proyectos</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  
+  <!--boostrap js-->
+  <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

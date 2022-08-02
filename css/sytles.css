@@ -1,15 +1,27 @@
-*{
-    margin: 4px;
+#profile-image{
+    border-radius: 100%;
+    position: relative;
+    bottom: 3rem;
+    left: 3rem;
+    height: auto;
+    width: auto;
+   
 }
-.perfil{
-    border-radius: 50%;    
-    
-}
-.marco{
-    border: 1px solid;
-    border-radius: 1%;
-}
-ul{
-    list-style: none;
+#portada{
+   border-radius: 31px 31px 0px 0px;
+    position: relative;
 
+}
+
+.dcard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid #023d02;
+    border-radius: 32px;
+    margin: 10px;
 }
