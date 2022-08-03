@@ -5,7 +5,6 @@
     left: 3rem;
     height: auto;
     width: auto;
-   
 }
 #portada{
    border-radius: 31px 31px 0px 0px;
@@ -24,4 +23,27 @@
     border: 1px solid #023d02;
     border-radius: 32px;
     margin: 10px;
+}
+.iicon{
+    height: 1rem;
+}
+#picon{
+    border-color: #ffffff;
+    background-color: #ffffff;
+    left: 9rem;
+    bottom: 5rem;
+    position: relative;
+    border-radius: 100%;
+}
+.icon{
+    border-color: #ffffff;
+    background-color: #ffffff;
+    position: relative;
+    float: right;
+    border-radius: 100%;
+    
+}
+
+li p{
+    float: left;
 }
